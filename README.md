@@ -33,6 +33,8 @@ after that you run your code.
 
 In this code u can see me setting the max players speed on the ground and the max players speed in the air.
 
+You can also do .add_rpc_attachment("self_spawned", func(node) which makes it run on every players PC not only on the client.
+
 IF U ARE WONDERING WHAT CODING LANGUAGE IS THAT ITS GD SCIPRT USED BY GODOT FOR ITS DEFAULT LANGUAGE.
 
 # Attachments and their arguments
