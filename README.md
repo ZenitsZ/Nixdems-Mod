@@ -38,4 +38,4 @@ You can also do .add_rpc_attachment("self_spawned", func(node) which makes it ru
 IF U ARE WONDERING WHAT CODING LANGUAGE IS THAT ITS GD SCIPRT USED BY GODOT FOR ITS DEFAULT LANGUAGE.
 
 # Attachments and their arguments
-attahment: "self_spawned" arguments: Players node
+attahment: "self_spawned" arguments: Your players node
