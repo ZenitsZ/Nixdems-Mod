@@ -31,4 +31,6 @@ First u need to reference the ModApi.
 After that u make .add_attachment("self_spawned", func(node) which means: you attach a chunk of code to a attachment. Attachments are signals that run after smth happens for an example if u want to do something after your Player spawns u write "self_spawned" into the attachment and u create a function with func(node) the node is the player node aka character.
 after that you run your code.
 
+In this code u can see me setting the max players speed on the ground and the max players speed in the air.
+
 IF U ARE WONDERING WHAT CODING LANGUAGE IS THAT ITS GD SCIPRT USED BY GODOT FOR ITS DEFAULT LANGUAGE.
