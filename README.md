@@ -34,3 +34,6 @@ after that you run your code.
 In this code u can see me setting the max players speed on the ground and the max players speed in the air.
 
 IF U ARE WONDERING WHAT CODING LANGUAGE IS THAT ITS GD SCIPRT USED BY GODOT FOR ITS DEFAULT LANGUAGE.
+
+# Attachments and their arguments
+attahment: "self_spawned" arguments: Players node
