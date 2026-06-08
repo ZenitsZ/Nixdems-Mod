@@ -40,3 +40,8 @@ IF U ARE WONDERING WHAT CODING LANGUAGE IS THAT ITS GD SCIPRT USED BY GODOT FOR 
 # Attachments and their arguments
 attachment: "self_spawned" arguments: Your players node
 attachment: "player_died_spawned" arguments: Runs when a player dies
+
+# METHODS OR VARIABLES THAT U SHOULD NEVER USE ( PROBABLY CAUSE THE MOD API USES THEM )
+ModAPI.Nextbots
+ModAPI.register_texture
+ModAPI.register_sound
