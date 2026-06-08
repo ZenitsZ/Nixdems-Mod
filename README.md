@@ -37,6 +37,24 @@ You can also do .add_rpc_attachment("self_spawned", func(node) which makes it ru
 
 IF U ARE WONDERING WHAT CODING LANGUAGE IS THAT ITS GD SCIPRT USED BY GODOT FOR ITS DEFAULT LANGUAGE.
 
+# Adding assets ( textures, sounds )
+To add assets you need to create a folder inside ur Mod folder named textures or sounds. WARNING ITS CASE SENSETIVE! Then put ur files in there. Every texture needs to be a png and sound a ogg file.
+After u add it the modloader should load it for you.
+
+# Adding nextbots
+To add a next bot u need to create a variable that will be ur nextbot. Then u give the variable a value of type NextbotData by writing ModAPI.create_nextbot("YOUR NEXTBOT NAME", "YOUR TEXTURE NAME", "YOUR SOUND NAME").
+If u dont have a name or a sound u can leave it blank but never leave the texture blank.
+Now after you created ur Nextbot you need to register it by writing ModAPI.register_nextbot(YOUR NEXTBOT VARIABLE)
+
+```
+extends Node
+
+func init() -> void:
+	var nextbot = ModApi.create_nextbot("Kamala", "kamala", "")
+	ModApi.register_nextbot(nextbot)
+
+```
+
 # Attachments and their arguments
 attachment: "self_spawned" arguments: Your players node,
 attachment: "player_died_spawned" arguments: Runs when a player dies
