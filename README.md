@@ -38,7 +38,7 @@ You can also do .add_rpc_attachment("self_spawned", func(node) which makes it ru
 IF U ARE WONDERING WHAT CODING LANGUAGE IS THAT ITS GD SCIPRT USED BY GODOT FOR ITS DEFAULT LANGUAGE.
 
 # Adding assets ( textures, sounds )
-To add assets you need to create a folder inside ur Mod folder named textures or sounds. WARNING ITS CASE SENSETIVE! Then put ur files in there. Every texture needs to be a png and sound a ogg file.
+To add assets you need to create a folder inside ur Mod folder named textures or sounds. WARNING ITS CASE SENSETIVE! Then put ur files in there. Every texture needs to be a png, jpg and sound a ogg file.
 After u add it the modloader should load it for you.
 
 # Adding nextbots
