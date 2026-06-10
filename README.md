@@ -15,7 +15,7 @@ After that u will need to create a json named "mod.json" the content of the json
 After u created the json we can go into the next part.
 
 # Basic scripting
-You can create as many scripts in the root folder for ur mod as u want every of them will be run. It can help you with keeping the mod structure clean.
+You can create as many scripts in the root folder for ur mod as u want every of them will be run. It can help you with keeping the mod structure clean. Also every sript needs to have the .gd extension cause its gd script.
 
 ```
 extends Node
@@ -35,10 +35,9 @@ In this code u can see me setting the max players speed on the ground and the ma
 
 You can also do .add_rpc_attachment("self_spawned", func(node) which makes it run on every players PC not only on the client.
 
-IF U ARE WONDERING WHAT CODING LANGUAGE IS THAT ITS GD SCIPRT USED BY GODOT FOR ITS DEFAULT LANGUAGE.
-
 # Adding assets ( textures, sounds )
 To add assets you need to create a folder inside ur Mod folder named textures or sounds. WARNING ITS CASE SENSETIVE! Then put ur files in there. Every texture needs to be a png, jpg and sound a ogg file.
+Somethings like nextbots also support ogv files which are videos. Because gifs are not supported.
 After u add it the modloader should load it for you.
 
 # Adding nextbots
